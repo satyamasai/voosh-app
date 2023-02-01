@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/id/953140058/photo/cooking-nd-seasoning-spices-border-on-black-slate-background.jpg?b=1&s=170667a&w=0&k=20&c=8Vmnl8mHhMmc2WvnEEj0RDajvg75bizccWzrTXIh2z8=");
+  background-size: 100% ;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* navbar css */
+
+.navbar{
+  width: 100%;
+  height: auto;
+  background-color:lightcoral;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+.navbar>Button{
+  margin: 2px;
+}
+
+
+/* login form */
+
+.loginform{
+  width: 80vh;
+  height: 50vh;
+  background-color: rgba(243, 115, 136, 0.74);
+  border-radius: 12px;
+  margin: 100px auto;
+align-items: center;
+justify-content: center;
+padding: 50px;
+
+  
+}
+.loginform label{
+  width: 370px;
+  /* border: 1px solid teal; */
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  /* margin-top: 50px; */
+  
+}
+.loginform input{
+  border-radius: 12px;
+  margin-left: 18px;
+  width: 180px;
+  padding-left: 10px;
+  height: 35px;
+}
+.login_button{
+  width: 80px;
+  height: 40px;
+  background-color: rgba(89, 197, 89, 0.932);
+}
+
+
+
+/* getORders page */
+.getOrders{
+width: 100%;
+height: 1000px;
+background-color: #61dafb44;
+display: flex;
+flex-wrap: wrap;
+}
+.order_box{
+  width: 200px;
+  height:300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* padding: 15px; */
+  display: grid;
+  background-color: rgba(230, 227, 29, 0.952);
+  margin-left: 5px;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+span{
+  color: red;
+}
+.img_box{
+  width: 90%;
+  height: 70%;
+  /* border: 1px solid red; */
+  margin: auto;
+
+}
+.img_box>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+
+
+/* home csss
+ */
+
+ .home{
+  width: 100%;
+  height: 1000px;
+  background-image: url("https://media.istockphoto.com/id/953140058/photo/cooking-nd-seasoning-spices-border-on-black-slate-background.jpg?b=1&s=170667a&w=0&k=20&c=8Vmnl8mHhMmc2WvnEEj0RDajvg75bizccWzrTXIh2z8=");
+  background-size: 100% 100%;
+  color: red;
+  
+ }
+ .home h1{
+  font-size: 5vw;
+  padding-top: 280px;
+ }
